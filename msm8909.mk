@@ -216,4 +216,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/sensors/hals.conf:system/etc/sensors/hals.conf
 
+PRODUCT_CHARACTERISTICS := tablet 
+
 $(call inherit-product-if-exists, vendor/lenovo/x103f/x103f-vendor.mk)
